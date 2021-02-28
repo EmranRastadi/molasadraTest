@@ -1,0 +1,125 @@
+@import "./resetes";
+@include media-md {
+  .menu-btn {
+    visibility: hidden;
+  }
+  .nav {
+    width: 90%;
+    visibility: visible;
+    .menu-nav {
+      display: block;
+      width: 90%;
+      transform: translateY(0);
+      height: 70px;
+      line-height: 3;
+      background: transparent !important;
+      text-align: right;
+
+      &__item {
+        display: inline;
+        padding-right: 1.5rem;
+        &_left {
+          margin-top: 10px;
+          float: left;
+          margin-left: 8%;
+        }
+        &__Left #icon{
+          margin-left: 0px !important;
+          margin-top: 18px !important;
+        }
+      }
+      &__link {
+        font-size: 0.9rem;
+        margin-left: 20px;
+      }
+    }
+  }
+  .content {
+    &__mainContent {
+      grid-template-columns: repeat(2, 1fr);
+      &__contents {
+        &__img {
+          border-radius: 5px 0 0 5px !important;
+        }
+        &__cards {
+          grid-template-columns: repeat(2, 1fr);
+          .dark-darken-1 {
+            border-radius: 0px 5px 5px 0px;
+          }
+          &__card {
+            .content-card {
+              height: 133px;
+            }
+          }
+          .red-dark-2 {
+            margin-top: 0px;
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .mainEqual {
+    &__main {
+      grid-template-columns: repeat(2, 1fr);
+      &__contents {
+        width: 99%;
+        &__desc {
+          .content {
+            height: 143px;
+          }
+          &__content {
+            height: 145px;
+          }
+        }
+        &__items {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    }
+  }
+
+  .mainGrid {
+    &__main {
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 0rem;
+    }
+  }
+
+  .newsLetter {
+    &__main {
+      &__contents {
+        height: 400px;
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+  .mainGrid2 {
+    &__main {
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 0rem;
+      &__contents {
+        padding: none !important;
+      }
+    }
+  }
+
+  .footer {
+    &__main {
+      &__contents {
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 0rem;
+        padding: none !important;
+
+        &__mini{
+          &__img{
+            position: relative;
+            width:120px !important;
+            height: 120px !important;
+          }
+        }
+      }
+    }
+  }
+}

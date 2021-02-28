@@ -1,0 +1,53 @@
+@import './variable';
+@import './resetes';
+@import './fonts';
+@import './colors';
+@import './responsive';
+body {
+    color: $text-color;
+    font-family : 'Yekan';
+    color : '#ffffff';
+    line-height: 1;
+}
+h1 , h2 , h3{
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: $primary-color;
+}
+input:focus{
+    border : none !important;
+}
+
+.red-dark-2{
+    margin-top: 15px;
+    background : $red-darken-2;
+}
+
+.col-single{
+    margin: 15px;
+}
+.dark-darken-1{
+    background : $dark-darken-1;
+}
+.dark-darken-4{
+    color : $dark-darken-4 !important;
+}
+
+.col-group{
+    margin : 0;
+}
+.right{
+    float: right;
+    margin-right: 8px;
+    margin-top: 8px;
+    padding-bottom: 8px;
+}
+.left{
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

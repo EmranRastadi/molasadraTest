@@ -1,0 +1,68 @@
+@import "../../../../../_InitialData/Sass/colors";
+
+.main_top {
+  width: 100%;
+  height: 570px;
+  background: $slider-back-gradiant;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#center-box {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  p {
+    width: 100%;
+    color: #fff;
+    font-size: 21px;
+  }
+}
+
+.slider_main {
+  width: 80%;
+  height: 100%;
+}
+.swiper-container-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 25px 5px !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: $primary-color !important;
+  padding: 5px !important;
+}
+.swiper-pagination-bullet {
+  background: #fbfbfb;
+}
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  color: #fff !important;
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  color: #fff !important;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  li {
+    width: 1442px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    img {
+      width: 50%;
+      height: 53%;
+      margin-left: 8rem;
+    }
+  }
+}

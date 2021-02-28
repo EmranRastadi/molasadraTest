@@ -1,0 +1,13 @@
+$eot-conf : '/_InitialData/Fonts/Yekan/Yekan.eot';
+$woff-conf : '/_InitialData/Fonts/Yekan/Yekan.woff';
+$ttf-conf : '/_InitialData/Fonts/Yekan/Yekan.ttf';
+@font-face {
+    font-family:'Yekan';
+    font-style: normal;
+    font-weight: 300;
+    src: url($eot-conf);
+    src: local('Yekan');
+    src: url($woff-conf) format('woff'), url($ttf-conf) format('truetype');
+  }
+
+  

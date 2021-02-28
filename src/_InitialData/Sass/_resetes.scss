@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+@mixin transation-ease {
+  transition: 0.3s all ease-in-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  -moz-stransition: 0.3s all ease-in-out;
+}
+
+@mixin media-md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 1024) {
+    @content;
+  }
+}
+
+@mixin media-xl {
+  @media screen and (min-width: 1600) {
+    @content;
+  }
+}
+
+
+
